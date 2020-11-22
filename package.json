@@ -1,0 +1,20 @@
+{
+  "name": "tweet-for-code-review-action",
+  "version": "1.0.0",
+  "description": "A Github action that automatically tweets PRs, Commits or Repos asking for Code Reviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obasekietinosa/tweet-for-code-review-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obasekietinosa/tweet-for-code-review-action/issues"
+  },
+  "homepage": "https://github.com/obasekietinosa/tweet-for-code-review-action#readme"
+}
