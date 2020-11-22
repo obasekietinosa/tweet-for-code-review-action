@@ -1,0 +1,16 @@
+name: 'Tweet For Code Review'
+description: 'automatically tweets PRs, Commits or Repos asking for Code Reviews'
+inputs:
+  api-key:  # id of input
+    description: 'Twitter API Key. Please supply this using secrets in the format: CONSUMER_KEY;CONSUMER_SECRET;ACCESS_TOKEN;ACCESS_TOKEN_SECRET'
+    required: true
+  tweet-body:  # id of input
+    description: 'What should be contained in the body of the tweet'
+    required: false
+    default: 'I’ve just updated my code! Please check it out and leave me reviews!'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  main: 'index.js'

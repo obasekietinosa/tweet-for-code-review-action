@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/obasekietinosa/tweet-for-code-review-action/issues"
   },
-  "homepage": "https://github.com/obasekietinosa/tweet-for-code-review-action#readme"
+  "homepage": "https://github.com/obasekietinosa/tweet-for-code-review-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "twit": "^2.2.11"
+  }
 }
